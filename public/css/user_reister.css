@@ -1,0 +1,143 @@
+body{
+    background-color: #efefef;
+}
+.comm_width{
+    width:1000px;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display:block;
+}
+ div.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+    height:90px;
+     color: #666;
+}
+div.top .btn_login{
+    text-decoration: none;
+    color:#ca5252;
+}
+div.top .btn_login:hover{
+    color:#ad4747;
+}
+.top .logo{
+    width:176px;
+    height:36px;
+    /*border:1px solid #fa5b5b;*/
+    overflow: hidden;
+    position: relative;
+}
+.top .logo img{
+    position: absolute;
+    top:-26px;
+    left:-48px;
+}
+.center{
+    margin:0 auto;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background:#fff;
+    font-size: 12px;
+}
+.center>div{
+    display: flex;
+    height:50px;
+}
+.center>div>div:first-child{
+    width:300px;
+    text-align: right;
+    position: relative;
+    top:8px;
+}
+.center input{
+    padding-left:10px;
+    height:30px;
+    width: 330px;
+    border:1px solid #ddd;
+}
+.center input[type=checkbox]{
+    width:15px;
+    height:15px;
+}
+.center  span{
+    color:#999;
+    font-size: 12px;
+}
+.center span.msg{
+    position: relative;
+    top:10px;
+    left:10px;
+}
+.center span.msgsuc{
+
+}
+.center span.msgerr{
+    color:red;
+}
+.center .tabbtn{
+    text-align: center;
+}
+.center .tabbtn a{
+    display: inline-block;
+    padding:5px;
+    width: 158px;
+    border:1px solid #ccc;
+    color:#000 ;
+    text-decoration: none;
+    font-size: 12px;
+}
+.center .tabbtn span a:first-child{
+    border-right:0;
+}
+.center .tabbtn span a:first-child+a{
+    border-left:0;
+}
+.center .tabbtn span a.active{
+    border-color: #ca5252;
+    background:#ca5252;
+    color: #fff;
+}
+.center .regbtn{
+    border-color: #ca5252;
+    background:#ca5252;
+    color: #fff;
+}
+.center .rule a{
+    color:inherit;
+    text-decoration: none;
+}
+.center .rule a:hover{
+    color:#666;
+}
+.bottom{
+    margin:10px auto;
+    color:#999;
+    font-size: 12px;
+    text-align: center;
+}
+.bottom a{
+    color:inherit;
+    text-decoration: none;
+}
+.bottom a:hover{
+    color:#ee8c18;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

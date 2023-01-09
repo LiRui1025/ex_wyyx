@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width,inital-scale:1"/> -->
+    <title></title>
+    <link rel="stylesheet" href="./css/base.css"/>
+    <link rel="stylesheet" href="./css/cart.css"/>
+</head>
+<body>
+<!-- 头部-->
+<!-- <iframe id="header" src="header.html" frameborder="0" scrolling="no" width="100%"></iframe> -->
+<div id="header-container"></div>
+<!--主体部分-->
+<section>
+    <!-- 购物车-->
+    <div id="cart">
+        <hr class="common_width"/>
+        <!-- carttop-->
+        <div>
+            <div class="carttop common_width clearfloat">
+                <div class="carttop_left">
+                    <div><img src="images/icons/coupon.png" alt=""/></div>
+                    <span>购物车可领优惠券</span>
+                </div>
+                <div class="carttop_right">
+                    <a>查看优惠券</a>
+                    <span>▽</span>
+                </div>
+            </div>
+        </div>
+
+        <table class="common_width">
+            <!-- carthead-->
+            <thead>
+                <tr>
+                    <td>
+                        <input class="checkbox" type="checkbox"/>
+                        <span>全选</span>
+                    </td>
+                    <td colspan="2">商品信息</td>
+                    <td>单价</td>
+                    <td>数量</td>
+                    <td>小计</td>
+                    <td>操作</td>
+                </tr>
+            </thead>
+            <!-- cartbdoy-->
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td colspan="7">
+                        <div class="yhmsg">
+                            <span class="yh_flag">全场加价购</span>
+                            <span>已满足【满130元可超值换购】</span>
+                            <span class="trade-in">去换购</span>
+                            <a href="">继续凑单>></a>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+            <tbody>
+            <tr>
+                <td>
+                    <input class="checkbox" type="checkbox"/>
+                </td>
+                <td>
+                    <div class="pro_img"><img src="images/cart/2.png" alt=""/></div>
+                </td>
+                <td>
+                    <p>智能衣物消毒烘干机</p>
+                    <span>35L</span>
+                    <span>▽</span>
+                </td>
+                <td>
+                    <p><span  class="price">￥500.00</span><del>￥600.00</del></p>
+                    <span class="price_flag">今日特价</span>
+                </td>
+                <td>
+                    <button class="count_btn">-</button>
+                    <input class="count" type="text" value="1"/>
+                    <button class="count_btn">+</button>
+                </td>
+                <td>
+                    <span class="subTotal">￥500.00</span>
+                </td>
+                <td>
+                    <p>移入收藏夹</p>
+                    <p>收藏</p>
+                </td>
+            </tr>
+
+            </tbody>
+            <tbody>
+            <tr>
+                <td></td>
+                <td colspan="7">
+                    <div class="yhmsg">
+                        <span class="yh_flag">加价购</span>
+                        <span>已满足无门槛【+5元起享超值换购】</span>
+                        <span class="trade-in">去换购</span>
+                        <a href="">继续凑单>></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="checkbox" type="checkbox"/>
+                </td>
+                <td>
+                    <div class="pro_img"><img src="images/cart/1.png" alt=""/></div>
+                </td>
+                <td>
+                    <p>复古半自动意式咖啡机</p>
+                    <span>复古白</span>
+                    <span>▽</span>
+                </td>
+                <td>
+                    <p><span class="price">￥500.00</span><del>￥600.00</del></p>
+                    <span class="price_flag">今日特价</span>
+                </td>
+                <td>
+                    <button class="count_btn">-</button>
+                    <input class="count"  type="text" value="1"/>
+                    <button class="count_btn">+</button>
+                </td>
+                <td>
+                    <span class="subTotal">￥500.00</span>
+                </td>
+                <td>
+                    <p>移入收藏夹</p>
+                    <p>收藏</p>
+                </td>
+            </tr>
+
+            </tbody>
+            <!-- cartfoot-->
+            <tfoot>
+                <tr>
+                    <td>
+                        <input class="checkbox" type="checkbox"/>
+                    </td>
+                    <td colspan="2">
+                        <span>已选(0)</span>
+                        <span>批量删除</span>
+                        <span>清空失效商品</span>
+                    </td>
+                    <td colspan="3">
+                        <div>
+                            <p><span>应付金额：</span><span class="pay">￥1000.00</span></p>
+                            <span>已满足免邮条件></span>
+                        </div>
+                        <div>
+                            <p>商品合计：<span class="originaSubTotal">￥1200.00</span></p>
+                            <p>活动优惠：<span class="yh">￥-200.00</span></p>
+                        </div>
+                    </td>
+                    <td>
+                        <span>下单</span>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </div>
+</section>
+
+<script src="js/cart.js"></script>
+
+<!-- 脚部-->
+<!-- <iframe id="footer" src="footer.html" frameborder="0" scrolling="no" width="100%"></iframe> -->
+<div id="footer-container"></div>
+</body>
+</html>
